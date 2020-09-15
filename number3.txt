@@ -8,5 +8,4 @@ xor (T1, A, B);
 xnor (T2, B, C);
 and (X, T1, T2, C);
 
-end 
 endmodule
