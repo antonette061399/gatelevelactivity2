@@ -4,10 +4,8 @@ input A, B;
 output S, C;
 wire T1, T2, Abar, Bbar;
 
-
 not (Abar, A), (Bbar, B);
 and (T1, Bbar, A), (T2, B, Abar), (C, A, B);
 or (S, T1, T2);
 
-end
 endmodule
