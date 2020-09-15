@@ -1,0 +1,11 @@
+module gate2(I, M, R, L, E);
+
+input I, M, R, L;
+output E;
+wire T1, T2, Mbar;
+
+and (T1, I, Mbar), (T2, Mbar, R, L);
+not (Mbar, M);
+or (E, T1, T2);
+
+endmodule
