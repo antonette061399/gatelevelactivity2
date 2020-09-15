@@ -8,5 +8,4 @@ not (Ybar, Y), (Zbar, Z) ;
 and (T1, Ybar, Z), (T2, Y, Z), (T3, X, Z);
 or (M, T1, T2, T3);
 
-end
 endmodule
