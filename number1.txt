@@ -1,0 +1,12 @@
+module gate1(A, B, C, D, X);
+
+input A, B, C, D;
+output X;
+wire T1, T2, T3;
+
+and (T1, A, B), (T3, T1, T2) ;
+nor (T2, C, D);
+nand (X, T2, T3);
+
+end
+endmodule
