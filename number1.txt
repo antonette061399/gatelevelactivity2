@@ -8,5 +8,4 @@ and (T1, A, B), (T3, T1, T2) ;
 nor (T2, C, D);
 nand (X, T2, T3);
 
-end
 endmodule
